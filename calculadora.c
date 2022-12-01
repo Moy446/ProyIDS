@@ -1,4 +1,14 @@
 #include <stdio.h>
+float sumar (int n1, int n2){
+	float r =0;
+	r= n1+n2;
+	return r;
+}
+float multi (int n1, int n2){
+    float r =0;
+    r= n1*n2;
+    return r;
+}
 int main(){
 	int n1,n2,op;
 	printf ("escribe n1\n");
